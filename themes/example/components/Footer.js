@@ -41,7 +41,7 @@ export const Footer = (props) => {
                 {BLOG.BEI_AN && (<a href="https://www.hipathology.cn/" className="text-black no-underline hover:underline ml-4">{BLOG.BEI_AN} </a>)}
                 <span className='text-black no-underline ml-4'>
                     Powered by
-                    <a href="https://github.com/songxurui/NotionNext" className=' hover:underline'> NotionNext {BLOG.VERSION}  </a>
+                    <a href="https://github.com/songxurui" className=' hover:underline'> NotionNext {BLOG.VERSION}  </a>
                 </span>
             </div>
         </div>
