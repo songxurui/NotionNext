@@ -38,7 +38,7 @@ export const Footer = (props) => {
             <div className="pt-4 md:p-0 text-center md:text-right text-xs">
                 {/* 右侧链接 */}
                 {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
-                {BLOG.BEI_AN && (<a href="https://beian.miit.gov.cn/" className="text-black no-underline hover:underline ml-4">{BLOG.BEI_AN} </a>)}
+                {BLOG.BEI_AN && (<a href="https://www.hipathology.cn/" className="text-black no-underline hover:underline ml-4">{BLOG.BEI_AN} </a>)}
                 <span className='text-black no-underline ml-4'>
                     Powered by
                     <a href="https://github.com/songxurui/NotionNext" className=' hover:underline'> NotionNext {BLOG.VERSION}  </a>
